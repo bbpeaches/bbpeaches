@@ -1,5 +1,6 @@
 baseURL = 'https://bbpeaches.com/'
 locale = 'zh-cn'
+defaultContentLanguage = 'zh'
 title = 'Kaelen 的个人主页'
 theme = 'PaperMod'
 
