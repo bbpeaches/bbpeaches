@@ -1,0 +1,4 @@
+baseURL = 'https://bbpeaches.com/'
+languageCode = 'zh-cn'
+title = 'Kaelen'
+theme = 'PaperMod'
