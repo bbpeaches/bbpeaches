@@ -20,8 +20,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;你好！我是一名主攻计算机科学与底层架构的学生。&lt;/p&gt;
-&lt;p&gt;目前正专注于系统级硬件设计与底层优化。除了硬核的代码与逻辑，我也喜欢用 Blender 进行 3D 建模和角色设计，探索技术与视觉表达的结合。在这座数字花园里，我会不定期掉落我的技术复盘与折腾日常。&lt;/p&gt;</description>
+      <description>&lt;p&gt;你好！我是一名主攻计算机科学与底层架构的学生。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

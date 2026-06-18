@@ -1,6 +1,6 @@
 +++
-draft = false
 title = "关于我"
+draft = false
 +++
 
 你好！我是一名主攻计算机科学与底层架构的学生。
