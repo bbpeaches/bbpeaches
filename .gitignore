@@ -11,4 +11,5 @@ Icon
 .idea/
 *.swp
 *.swo
-bbpeaches*.md
+*bbpeaches*.md
+content/content.md

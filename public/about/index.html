@@ -30,6 +30,7 @@ Institution: Harbin Institute of Technology (HIT)
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="zh" href="https://bbpeaches.com/about/">
+<link rel="alternate" hreflang="en" href="https://bbpeaches.com/en/about/">
 <noscript>
     <style>
         #theme-toggle,
@@ -75,12 +76,26 @@ Institution: Harbin Institute of Technology (HIT)
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://bbpeaches.com/about/">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+          {left: '$$', right: '$$', display: true},  // 块级公式
+          {left: '$', right: '$', display: false}    // 行内公式
+      ],
+      throwOnError : false
+    });">
+</script>
+<meta property="og:url" content="https://bbpeaches.com/about/">
   <meta property="og:site_name" content="Kaelen 的个人主页">
   <meta property="og:title" content="About Kaelen">
   <meta property="og:description" content="Hi, I’m Kaelen I am an undergraduate student at Harbin Institute of Technology (HIT), with a strong focus on underlying system development and artificial intelligence architectures. My work bridges the gap between hardware-level execution and high-level algorithmic design.
 💻 Engineering &amp; Projects Seedling: Actively developing and maintaining this open-source CLI toolkit, engineered to provide efficient project directory management and automated structural builds. 🔧 Technical Focus Ask me about: C&#43;&#43;, Python, Ascend operator development, LLM architectures, and project engineering. Institution: Harbin Institute of Technology (HIT)">
-  <meta property="og:locale" content="zh_cn">
+  <meta property="og:locale" content="zh">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
@@ -158,7 +173,13 @@ Institution: Harbin Institute of Technology (HIT)
                         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
-                </button>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="https://bbpeaches.com/en/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
             </div>
         </div>
         <ul id="menu" class="menu">
@@ -201,7 +222,12 @@ Institution: Harbin Institute of Technology (HIT)
     </h1>
     <div class="post-meta">
 
-<span>1 分钟</span>&nbsp;·&nbsp;<span>84 字</span>
+<span>1 分钟</span>&nbsp;·&nbsp;<span>84 字</span>&nbsp;|&nbsp;<span>语言:</span>
+    <ul class="i18n_list">
+        <li>
+            <a href="https://bbpeaches.com/en/about/">En</a>
+        </li>
+    </ul>
 
 </div>
   </header> <details class="toc" >

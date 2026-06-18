@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Kaelen&#39;s Homepage</title>
+    <link>https://bbpeaches.com/en/posts/</link>
+    <description>Recent content in Posts on Kaelen&#39;s Homepage</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Jun 2026 19:32:43 +0800</lastBuildDate>
+    <atom:link href="https://bbpeaches.com/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://bbpeaches.com/en/posts/hello-world/</link>
+      <pubDate>Thu, 18 Jun 2026 19:32:43 +0800</pubDate>
+      <guid>https://bbpeaches.com/en/posts/hello-world/</guid>
+      <description>&lt;p&gt;Finally got the domain up and running! This is my first test post.&lt;/p&gt;
+&lt;p&gt;This is an inline formula test: $E = mc^2$&lt;/p&gt;
+&lt;p&gt;This is a block formula test:
+$$\int_a^b f(x) dx = F(b) - F(a)$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

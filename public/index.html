@@ -22,6 +22,7 @@
 <link rel="alternate" type="application/rss+xml" href="https://bbpeaches.com/index.xml" title="rss">
 <link rel="alternate" type="application/json" href="https://bbpeaches.com/index.json" title="json">
 <link rel="alternate" hreflang="zh" href="https://bbpeaches.com/">
+<link rel="alternate" hreflang="en" href="https://bbpeaches.com/en/">
 <noscript>
     <style>
         #theme-toggle,
@@ -67,10 +68,24 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
-</script><meta property="og:url" content="https://bbpeaches.com/">
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+          {left: '$$', right: '$$', display: true},  // 块级公式
+          {left: '$', right: '$', display: false}    // 行内公式
+      ],
+      throwOnError : false
+    });">
+</script>
+<meta property="og:url" content="https://bbpeaches.com/">
   <meta property="og:site_name" content="Kaelen 的个人主页">
   <meta property="og:title" content="Kaelen 的个人主页">
-  <meta property="og:locale" content="zh_cn">
+  <meta property="og:locale" content="zh">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary">
@@ -115,7 +130,13 @@
                         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
-                </button>
+                </button><span class="nav-sep">|</span>
+                    <ul class="lang-menu">
+                        <li>
+                            <a href="https://bbpeaches.com/en/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
             </div>
         </div>
         <ul id="menu" class="menu">
@@ -183,11 +204,13 @@
   </header>
   <div class="entry-content">
     <p>终于把域名跑起来了！这是我的第一篇测试文章。
+这是一个行内公式测试：$E = mc^2$
+这是一个块级公式测试： $$\int_a^b f(x) dx = F(b) - F(a)$$
 </p>
   </div>
   <footer class="entry-footer">
 
-<span title='2026-06-18 19:32:43 +0800 CST'>2026年6月18日</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>1 字</span></footer>
+<span title='2026-06-18 19:32:43 +0800 CST'>2026年6月18日</span>&nbsp;·&nbsp;<span>1 分钟</span>&nbsp;·&nbsp;<span>12 字</span></footer>
   <a class="entry-link" aria-label="post link to Hello World" href="https://bbpeaches.com/posts/hello-world/"></a>
 </article>
     </main>
