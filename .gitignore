@@ -1,0 +1,14 @@
+public/
+resources/_gen/
+assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
