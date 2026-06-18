@@ -1,6 +1,19 @@
 +++
-title = "关于我"
+title = "About Kaelen"
 draft = false
 +++
 
-你好！我是一名主攻计算机科学与底层架构的学生。
+## Hi, I'm Kaelen
+
+I am an undergraduate student at Harbin Institute of Technology (HIT), with a strong focus on underlying system development and artificial intelligence architectures. My work bridges the gap between hardware-level execution and high-level algorithmic design.
+
+---
+
+### 💻 Engineering & Projects
+
+- **[Seedling](https://github.com/bbpeaches/Seedling):** Actively developing and maintaining this open-source CLI toolkit, engineered to provide efficient project directory management and automated structural builds.
+
+### 🔧 Technical Focus 
+
+- **Ask me about:** C++, Python, Ascend operator development, LLM architectures, and project engineering.
+- **Institution:** Harbin Institute of Technology (HIT)
